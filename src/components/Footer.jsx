@@ -28,7 +28,7 @@ const Footer = () => {
                 <div className='footer-menu'>
                     <h3>Contactanos</h3>
                     <div>
-                        <p>+54 0 2236 03-5028</p>
+                        <p>+54 9 2236 03-5028</p>
                     </div>
                     <div>
                         <p>Logo @borana.cafe</p>
