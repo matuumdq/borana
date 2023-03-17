@@ -15,6 +15,7 @@ const Footer = () => {
                     <p>wpp</p>
                 </div>
             </div>
+
             <div className='footer-right'>
                 <div className='footer-menu'>
                     <h3>Menu</h3>
@@ -23,6 +24,7 @@ const Footer = () => {
                     <p>Quienes somos?</p>
                     <p>Contacto</p>
                 </div>
+
                 <div className='footer-menu'>
                     <h3>Contactanos</h3>
                     <div>
@@ -32,6 +34,7 @@ const Footer = () => {
                         <p>Logo @borana.cafe</p>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
