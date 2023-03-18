@@ -23,7 +23,7 @@ const Choose = () => {
         }
     ]
   return (
-    <>
+    <div className='why-us'>
         <h2 className='choose-us'>POR QUE ELEGIRNOS?</h2>
         <div className='container'>
             {options.map((opt, i) => (
@@ -33,7 +33,7 @@ const Choose = () => {
                 />
             ))}
         </div>
-    </>
+    </div>
   )
 }
 

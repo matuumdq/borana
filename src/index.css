@@ -47,13 +47,20 @@
 .nav-menu button{
     padding: 10px 30px;
     border-radius: 25px;
+    border: 0px;
+    font-weight: 700;
     text-transform: uppercase;
     color: #FFFFFF;
     background: #77AAAD;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 600ms;
 }
 
 .nav-menu button:hover{
     cursor: pointer;
+    background-color: #D9D9D9;
+    color: #000;
+    
 }
 
 .bg-header {
@@ -78,9 +85,14 @@
     font-size: 30px;
 }
 
+.why-us{
+    background: #F1F1F1;
+    margin: 0;
+}
+
 .choose-us{
     text-align: center;
-    margin: 5%;
+    padding: 5% 0 1%;
 }
 
 .container {
@@ -143,8 +155,104 @@
     font-size: 18px;
 }
 
+.shop{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+}
 
+.shop-cards{
+    margin: 0px 0px 200px 50px;
+    display: flex;
+}
 
+.india{
+    position: relative;
+    z-index: 2;
+    transform: rotate(20deg);
+}
+
+.brasil{
+    position: relative;
+    transform: translate(-40%, 45%);
+    z-index: 1;
+}
+
+.shop-text{
+    font-weight: 700;
+    text-align: center;
+}
+
+.principal-text{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.sec-text{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.shop-button{
+    margin-top: 70px;
+    padding: 15px 40px;
+    border-radius: 25px;
+    border: 0px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 700;
+    background: #77AAAD;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 600ms;
+}
+
+.shop-button:hover{
+    cursor: pointer;
+    background-color: #D9D9D9;
+    color: #000;
+}
+
+@media only screen and (max-width: 992px){
+    .shop{
+        display: none;
+    }
+}
+
+.who-us{
+    text-align: center;
+    padding: 5% 0 1%;
+}
+
+.who-container{
+    display: flex;
+    margin: 5% 0 25%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.who-text{
+    width: 25%;
+    line-height: 1.8;
+    font-weight: 700;
+}
+
+.who-img{
+    display: flex;
+    height: 320px;
+}
+
+.serve-img {
+    position: relative;
+    transform: translate(0%, 60%);
+    z-index: 2;
+}
+
+.filter-img{
+    position: relative;
+    transform: translate(-40%);
+    z-index: 1;
+}
 
 .footer {
     margin: 0;
