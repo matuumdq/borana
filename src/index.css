@@ -160,6 +160,7 @@
     margin: 50px;
     align-items: center;
     justify-content: center;
+    height: 70vh;
 }
 
 .shop-cards{
@@ -219,6 +220,11 @@
     }
 }
 
+.who-size{
+    background: #F1F1F1;
+    height: 800px;
+}
+
 .who-us{
     text-align: center;
     padding: 5% 0 1%;
@@ -226,7 +232,7 @@
 
 .who-container{
     display: flex;
-    margin: 5% 0 25%;
+    margin: 5% 5% 5%;
     align-items: center;
     justify-content: space-around;
 }
@@ -240,6 +246,7 @@
 .who-img{
     display: flex;
     height: 320px;
+    width: auto;
 }
 
 .serve-img {
@@ -252,6 +259,31 @@
     position: relative;
     transform: translate(-40%);
     z-index: 1;
+}
+
+@media only screen and (max-width: 992px){
+    .who-size{
+        height: 500px;
+    }
+    .who-container{
+        justify-content: center;
+        gap: 50px;
+    }
+    .who-text{
+        width: 50%;
+        font-weight: 300;
+    }
+    .who-text p{
+        margin: auto 0px 20px;
+    }
+    .who-img{
+    }
+    .serve-img{
+        transform: translate(0);
+    }
+    .filter-img{
+        display: none;
+    }
 }
 
 .footer {
@@ -288,6 +320,19 @@
 
 .footer-logos {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logos img{
+    margin-top: 30px;
+    width: 50px;
+}
+
+.footer-logos-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .footer-right {
