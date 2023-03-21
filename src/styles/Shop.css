@@ -55,9 +55,7 @@
 @media only screen and (max-width: 768px) {
     .shop{
         margin: 100px 0;
-    }
-    .shop-cards{
-       
+        height: 40vh;
     }
     .shop-img{
         display: none;
