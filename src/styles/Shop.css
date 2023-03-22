@@ -5,10 +5,6 @@
     height: 70vh;
 }
 
-.shop-cards{
-    width: 50%;
-}
-
 .shop-img{
     width: 400px;
 }
@@ -55,7 +51,7 @@
 @media only screen and (max-width: 768px) {
     .shop{
         margin: 100px 0;
-        height: 40vh;
+        height: 70vh;
     }
     .shop-img{
         display: none;
@@ -78,6 +74,7 @@
 @media only screen and (max-width: 414px) {
     .shop{
         flex-direction: column;
+        height: 100vh;
     }
     .shop-country{
         margin-bottom: 40px;
@@ -88,6 +85,6 @@
         margin: 0 auto;
     }
     .shop-button{
-        margin-top: 20px;
+        margin: 40px auto;
     }
 }
