@@ -2,6 +2,7 @@ import coffee from '../assets/coffee.png'
 import home from '../assets/home.png'
 import facture from '../assets/facture.png'
 import Card from './Card'
+import '../styles/Choose.css'
 
 const Choose = () => {
 
