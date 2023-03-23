@@ -8,16 +8,15 @@
     padding: 5% 0 1%;
 }
 
-.container {
+.choose-container {
     display: flex;
     justify-content: center;
     position: relative;
-    padding: 0 0 70px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
 }
 
 @media only screen and (max-width: 768px){
-    .container {
+    .choose-container {
         flex-direction: column;
         align-items: center;
         width: 100%;

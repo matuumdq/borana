@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: 60vh;
+    margin: 0 50px;
 }
 
 .shop-img{
@@ -31,6 +32,7 @@
 
 .shop-button{
     margin-top: 70px;
+    width: 150px;
     padding: 15px 40px;
     border-radius: 25px;
     border: 0px;
@@ -50,8 +52,8 @@
 
 @media only screen and (max-width: 768px) {
     .shop{
-        margin: 100px 0;
-        height: 70vh;
+        height: 60vh;
+        margin: 20px;
     }
     .shop-img{
         display: none;
@@ -63,7 +65,7 @@
     }
     .principal-text{
         font-size: 20px;
-        padding-bottom: 20px;
+        padding: 25px 0;
     }
     .sec-text{
         font-size: 12px;
@@ -74,10 +76,8 @@
 @media only screen and (max-width: 414px) {
     .shop{
         flex-direction: column;
-        height: 100vh;
-    }
-    .shop-country{
-        margin-bottom: 40px;
+        height: 70vh;
+        margin-top: 50px;
     }
     .shop-text{
         font-weight: 700;
@@ -86,5 +86,6 @@
     }
     .shop-button{
         margin: 40px auto;
+        width: 150px;
     }
 }
