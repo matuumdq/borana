@@ -26,34 +26,50 @@ const Form = () => {
             </div>
 
             <div className='form-contact-size'>
-                <p>envianos un mensaje</p>
+                <p>Envianos un mensaje</p>
                 <div className='form-contact'>
                     <div className='try'>
                         <label>NOMBRE</label>
-                        <input type="text" name="user_name" />
+                        <input
+                            placeholder='Escriba su nombre'
+                            type="text" 
+                            name="user_name" 
+                        />
                     </div>
 
                     <div className='try'>
                         <label>APELLIDO</label>
-                        <input type="text" name="user_name" />
+                        <input
+                            placeholder='Escriba su apellido'
+                            type="text" 
+                            name="user_name" 
+                        />
                     </div>
 
                     <div className='try'>
                         <label>EMAIL</label>
-                        <input type="email" name="user_email" />
+                        <input
+                            placeholder='Escriba su email'
+                            type="email" 
+                            name="user_email" 
+                        />
                     </div>
                     
                     <div className='try'>
                         <label>TELEFONO</label>
-                        <input type="text" name="user_name" />
+                        <input
+                            placeholder='Escriba su telefono'
+                            type="number" 
+                            name="user_name" 
+                        />
                     </div>
                     
-                    <div className='try'>
+                    <div className='try message'>
                         <label>MENSAJE</label>
                         <input
-                            placeholder='Escriba su mensaje'
+                            placeholder='Contanos sobre tu idea'
                             name="message"
-                            />
+                        />
                     </div>
                 </div>
                     <button type="submit">
