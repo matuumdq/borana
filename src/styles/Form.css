@@ -1,4 +1,110 @@
-* {
-    margin: 0;
-    padding: 0;
+.form-cont{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form{
+    position: relative;
+    display: flex;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-7%);
+}
+
+.form-text{
+    position: relative;
+    transform: translate(50%);
+    z-index: 2;
+    background-color: #FFF;
+    width: 20%;
+    height: 60%;
+    max-height: 500px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 1px 2px 20px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 1px 2px 20px 0px rgba(0,0,0,0.45);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-contactus{
+    font-weight: 500;
+    color: #EB7D34;
+}
+
+.form-dudes {
+    font-weight: 700;
+}
+
+.form-icons{
+    padding: 0 15px;
+    display: flex;
+}
+
+.form-contact-size{
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 1px 2px 20px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 1px 2px 20px 0px rgba(0,0,0,0.45);
+    border-radius: 8px;
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 0 0 15%;
+}
+
+.form-contact-size p{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form-contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.try{
+    display: flex;
+    flex-direction: column;
+    color: #828282;
+    font-weight: 600;
+}
+
+.try input{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #04202B;
+    padding-top: 15px;
+}
+
+button {
+    width: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 25px;
+    border: 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #EB7D34;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 600ms;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #D9D9D9;
+    color: #000;
+    
 }
