@@ -7,6 +7,7 @@ const Header = () => {
     <>
         <Shipping />
         <Navbar />
+        
         <div className='bg-header'>
             <img src={logo} alt="borana logo" className='header-logo'/>
             <p className='header-toast'>Tostadores de Café</p>
