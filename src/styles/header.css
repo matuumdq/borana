@@ -1,18 +1,18 @@
-.slider-conteiner {
-    background: rgba(0, 0, 0, 0.6) url('../src/assets/fondo.png');
-    height: 90vh;
+ .slider-conteiner {
+    background: rgba(0, 0, 0, 0.6) url('../src/assets/fondo.png'); 
+    height: 350px;
     width: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-blend-mode: darken;
     flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
 }
 
 .slider-logo{
-    height: 500px;
+    height: 250px;
 }
 
 .slider-title {
