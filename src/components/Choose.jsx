@@ -2,6 +2,7 @@ import coffee from '../assets/coffee.png'
 import home from '../assets/home.png'
 import facture from '../assets/facture.png'
 import Card from './Card'
+import '../styles/Choose.css'
 
 const Choose = () => {
 
@@ -25,7 +26,7 @@ const Choose = () => {
   return (
     <div className='why-us'>
         <h2 className='choose-us'>POR QUE ELEGIRNOS?</h2>
-        <div className='container'>
+        <div className='choose-container'>
             {options.map((opt, i) => (
                 <Card 
                     key={opt.id}

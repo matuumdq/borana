@@ -1,5 +1,6 @@
 import filtrado from '../assets/filtrado.png'
 import sirviendo from '../assets/sirviendo.png'
+import '../styles/Who.css'
 
 const Who = () => {
     const text = 'Borana nace en 2020 en Mar del Plata como un tostadero de café de especialidad impulsado por el deseo de ofrecer café de alta calidad y de diversos orígenes.' 
