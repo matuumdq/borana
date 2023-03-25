@@ -1,16 +1,9 @@
-import { useState, useRef } from 'react'
+import { useRef } from 'react'
 import { BsFacebook, BsInstagram } from 'react-icons/bs'
 import emailjs from '@emailjs/browser';
 import '../styles/Form.css'
 
 const Form = () => {
-
-    const [name, setName] = useState('')
-    const [surname, setSurName] = useState('')
-    const [email, setEmail] = useState('')
-    const [phone, setPhone] = useState('')
-    const [message, setMessage] = useState('')
-
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -48,8 +41,8 @@ const Form = () => {
             </div>
 
                 <div className='form-icons'>
-                    <BsInstagram color='#EB7D34' className='form-icons'/>
-                    <BsFacebook color='#EB7D34' className='form-icons'/>
+                    <BsInstagram color='#EB7D34' className='form-icons' size={25}/>
+                    <BsFacebook color='#EB7D34' className='form-icons' size={25}/>
                 </div>
             </div>
 
@@ -59,7 +52,6 @@ const Form = () => {
                     <div className='try'>
                         <label>NOMBRE</label>
                         <input
-                            onChange={e => setName(e.target.value)}
                             placeholder='Escriba su nombre'
                             type="text" 
                             name="user_name" 
@@ -69,7 +61,6 @@ const Form = () => {
                     <div className='try'>
                         <label>APELLIDO</label>
                         <input
-                            onChange={e => setSurName(e.target.value)}
                             placeholder='Escriba su apellido'
                             type="text" 
                             name="user_surname" 
@@ -79,7 +70,6 @@ const Form = () => {
                     <div className='try'>
                         <label>EMAIL</label>
                         <input
-                            onChange={e => setEmail(e.target.value)}
                             placeholder='Escriba su email'
                             type="email" 
                             name="user_email" 
@@ -89,7 +79,6 @@ const Form = () => {
                     <div className='try'>
                         <label>TELEFONO</label>
                         <input
-                            onChange={e => setPhone(e.target.value)}
                             placeholder='Escriba su telefono'
                             type="number" 
                             name="user_phone" 
@@ -99,7 +88,6 @@ const Form = () => {
                     <div className='try message'>
                         <label>MENSAJE</label>
                         <input
-                            onChange={e => setMessage(e.target.value)}
                             placeholder='Contanos sobre tu idea'
                             name="message"
                         />
