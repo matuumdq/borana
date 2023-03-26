@@ -35,7 +35,7 @@ const Form = () => {
     };
 
   return (
-    <>
+    <div className='form-size'>
         <h2 className='form-cont'>CONTACTANOS</h2>
         <form 
             ref={form}
@@ -119,7 +119,7 @@ const Form = () => {
             </div>
         </form>
         <Toaster richColors />
-    </>
+    </div>
   )
 }
 
