@@ -1,16 +1,24 @@
 
-.footer-conteiner {
+.footer-image{
+   
     width: 100%;
-    background-color: black;
-    height: 250px;
+    transform: scaleY(0.85);
 }
+
+.footer-conteiner {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: -60px;
+    background-color: black;
+    height: 200px;
+}
+
 
 .footer-box-conteiner{
     width: 85%;
     display: flex;
     flex-direction: row;
-    margin: auto;
-    border: 1px solid salmon;
+    margin-left: 10%;
 }
 
 .footer-box-1{
@@ -18,7 +26,7 @@
     flex-direction: column;
     max-width: 300px;
     color: white;
-    border: 1px solid salmon;
+   
 }
 
 .footer-box-1 img{

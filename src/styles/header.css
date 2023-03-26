@@ -12,8 +12,17 @@
 }
 
 .slider-logo{
-    height: 250px;
+    margin-top: 4%;
+    height: 200px;
 }
+.slider-slogan{
+   
+    transform: scale(0.5);
+    margin-top: -5%;
+
+    
+}
+
 
 .slider-title {
     color: #FFFFFF;

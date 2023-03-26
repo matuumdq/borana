@@ -11,11 +11,14 @@ import { ImLocation } from 'react-icons/im'
 const Footer = () => {
   
   return (
-  
-    <div className="footer-conteiner">
-           
-        <img></img>
-
+     
+   <>
+      
+    <img src={mountain} alt="mountain-borana" className='footer-image'/>   
+                  
+ 
+     <div className="footer-conteiner">
+   
         <div className='footer-box-conteiner'>
 
            <div className='footer-box-1'>
@@ -42,12 +45,13 @@ const Footer = () => {
                 <li><BsWhatsapp size={15} color='#77AAAD' /> +5491158909965</li>
                 <li><ImLocation size={15} color='#77AAAD'/>@Borana</li>
                 </ul>   
-            </div>      
+           </div>      
             
-        
         </div>  
     
-    </div>
+      </div>
+   </>
+
   )
 }
 
