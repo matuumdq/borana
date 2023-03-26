@@ -6,14 +6,16 @@ const Shop = () => {
   return (
     <div className='shop'>
     <div className='shop-cards'>
-        <img src={borana} className='shop-img' alt="Logo borana Redondo" />
+        {/* <img src={borana} className='shop-img' alt="Logo borana Redondo" /> */}
         <img src={country} alt="countries coffe" className='shop-country'/>
     </div>
+    <div className='shop-container'>
         <div className='shop-text'>
             <p className='principal-text'>¡Visita nuestra tienda online!</p>
-            <p className='sec-text'>Y pedi tu cafe favorito directo a tu casa</p>
-            <button className='shop-button'>TIENDA</button>
+            <p className='sec-text'>Y disfrutá de tú café favorito directo en casa</p>
+            <button className='shop-button'>COMPRAR</button>
         </div>
+    </div>
     </div>
   )
 }
