@@ -14,6 +14,7 @@ const Header = () => {
         <div className='slider-conteiner'>
             <img src={logo} alt="borana logo" className='slider-logo'/>
             <p className='slider-title'>Tostadores de Café</p>
+        
         </div>
 
     </header>
@@ -21,4 +22,4 @@ const Header = () => {
 
 }
 
-export default Header
+export default Header;
