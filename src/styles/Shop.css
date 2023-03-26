@@ -61,6 +61,7 @@
     }
     .shop-container{
         background: #FFF;
+        padding: 0;
     }
     .shop-country{
         display: block;
