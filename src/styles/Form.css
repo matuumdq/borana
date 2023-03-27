@@ -1,3 +1,7 @@
+.form-size{
+    padding-top: 5%;
+}
+
 .form{
    margin: 5% 15% 5% 5%; 
 }
@@ -5,6 +9,7 @@
 .form-cont{
     text-transform: uppercase;
     text-align: center;
+    padding-bottom: 25px;
 }
 
 .form-dudes{
@@ -58,15 +63,15 @@
 }
 
 button {
-    width: 150px;
+    width: 100%;
     margin: 0 auto 20px;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 2px;
     border: 0px;
     font-weight: 700;
     text-transform: uppercase;
     color: #FFFFFF;
-    background: #EB7D34;
+    background: #77AAAD;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 600ms;
 }
@@ -111,6 +116,10 @@ button:hover{
         justify-content: space-evenly;
         text-align: center;
         text-transform: uppercase;
+    }
+
+    .form-cont{
+        padding-bottom: 0;
     }
     
     .form-contactus{
@@ -171,5 +180,11 @@ button:hover{
     
     .try label{
         margin-bottom: 10px;
+    }
+
+    button {
+        width: 150px;
+        background: #EB7D34;
+        border-radius: 25px;
     }
 }

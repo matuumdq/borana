@@ -1,13 +1,15 @@
 .shop{
+    background-image: url('../assets/coffeebeans.png');
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60vh;
-    margin: 0 50px;
+    height: 70vh;
 }
 
-.shop-img{
-    width: 400px;
+.shop-container{
+    background: #F1F1F1;
+    padding: 40px 80px 20px;
+    border-radius: 30px;
 }
 
 .shop-country{
@@ -17,29 +19,30 @@
 .shop-text{
     font-weight: 700;
     text-align: center;
-    margin-left: 50px;
 }
 
 .principal-text{
     font-size: 30px;
     padding-bottom: 20px;
+    font-weight: 800;
 }
 
 .sec-text{
-    font-size: 18px;
+    font-size: 20px;
     padding-bottom: 20px;
 }
 
 .shop-button{
-    margin-top: 70px;
+    margin-top: 10px;
     width: 150px;
-    padding: 15px 40px;
+    padding: 10px 30px;
     border-radius: 25px;
     border: 0px;
     text-transform: uppercase;
     color: #FFFFFF;
     font-weight: 700;
-    background: #77AAAD;
+    font-size: 18px;
+    background: #EB7D34;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 600ms;
 }
@@ -52,16 +55,20 @@
 
 @media only screen and (max-width: 768px) {
     .shop{
+        background-image: none;
         height: 60vh;
         margin: 20px;
     }
-    .shop-img{
-        display: none;
+    .shop-container{
+        background: #FFF;
+        padding: 0;
     }
     .shop-country{
         display: block;
         height: auto;
         width: 100%;
+        position: relative;
+        z-index: -1;
     }
     .principal-text{
         font-size: 20px;

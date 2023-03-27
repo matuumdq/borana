@@ -1,26 +1,41 @@
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import { BsFacebook, BsInstagram } from 'react-icons/bs'
 import emailjs from '@emailjs/browser';
+import { Toaster, toast} from "sonner"
 import '../styles/Form.css'
 
 const Form = () => {
     const form = useRef();
+    const [name, setName] = useState('')
+    const [surname, setSurName] = useState('')
+    const [email, setEmail] = useState('')
+    const [phone, setPhone] = useState('')
+    const [messages, setMessages] = useState('')
 
     const sendEmail = (e) => {
     e.preventDefault();
 
+    if(name==='' || surname ==='' || email === '' || phone === '' || messages === ''){
+        toast.error('Todos los campos son obligatorios')
+        return
+    }
+
     emailjs.sendForm(import.meta.env.VITE_SERVICE, import.meta.env.VITE_TEMPLATE, form.current, import.meta.env.VITE_USER_API)
       .then((result) => {
-          console.log(result.text);
-          console.log('message send')
-          e.target.reset()
+          toast.success('Email enviado satisfactoriamente')
+            e.target.reset()
+            setName('')
+            setSurName('')
+            setEmail('')
+            setPhone('')
+            setMessages('')
       }, (error) => {
           console.log(error.text);
       });
     };
 
   return (
-    <>
+    <div className='form-size'>
         <h2 className='form-cont'>CONTACTANOS</h2>
         <form 
             ref={form}
@@ -50,46 +65,56 @@ const Form = () => {
                 <p>Envianos un mensaje</p>
                 <div className='form-contact'>
                     <div className='try'>
-                        <label>NOMBRE</label>
+                        <label for='name'>NOMBRE</label>
                         <input
+                            onChange={e => setName(e.target.value)}
                             placeholder='Escriba su nombre'
                             type="text" 
                             name="user_name" 
+                            id="name" 
                         />
                     </div>
 
                     <div className='try'>
-                        <label>APELLIDO</label>
+                        <label for='surname'>APELLIDO</label>
                         <input
+                            onChange={e => setSurName(e.target.value)}
                             placeholder='Escriba su apellido'
                             type="text" 
                             name="user_surname" 
+                            id="surname" 
                         />
                     </div>
 
                     <div className='try'>
-                        <label>EMAIL</label>
+                        <label for='email'>EMAIL</label>
                         <input
+                            onChange={e => setEmail(e.target.value)}
                             placeholder='Escriba su email'
                             type="email" 
                             name="user_email" 
+                            id="email" 
                         />
                     </div>
                     
                     <div className='try'>
-                        <label>TELEFONO</label>
+                        <label for='phone'>TELEFONO</label>
                         <input
+                            onChange={e => setPhone(e.target.value)}
                             placeholder='Escriba su telefono'
                             type="number" 
                             name="user_phone" 
+                            id="phone" 
                         />
                     </div>
                     
                     <div className='try message'>
-                        <label>MENSAJE</label>
+                        <label for='message'>MENSAJE</label>
                         <input
+                            onChange={e => setMessages(e.target.value)}
                             placeholder='Contanos sobre tu idea'
                             name="message"
+                            id="message"
                         />
                     </div>
                 </div>
@@ -98,7 +123,8 @@ const Form = () => {
                     </button>
             </div>
         </form>
-    </>
+        <Toaster richColors />
+    </div>
   )
 }
 

@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 30px;
+    padding: 0;
 }
 
 .who-us{
@@ -57,6 +57,8 @@
     }
     .filter-img{
         display: block;
+        height: 320px;
+        width: auto;
     }
 }
 
@@ -65,6 +67,7 @@
         height: 80vh;
         margin-bottom: 50px;
         justify-content: space-evenly;
+        padding: 5% 0 0;
     }
     .who-container{
         flex-direction: column;
@@ -77,9 +80,5 @@
     .who-text{
         margin: auto;
         width: 100%;
-    }
-    .filter-img{
-        width: 220px;
-        height: auto;
     }
 }
