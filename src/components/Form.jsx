@@ -65,51 +65,56 @@ const Form = () => {
                 <p>Envianos un mensaje</p>
                 <div className='form-contact'>
                     <div className='try'>
-                        <label>NOMBRE</label>
+                        <label for='name'>NOMBRE</label>
                         <input
                             onChange={e => setName(e.target.value)}
                             placeholder='Escriba su nombre'
                             type="text" 
                             name="user_name" 
+                            id="name" 
                         />
                     </div>
 
                     <div className='try'>
-                        <label>APELLIDO</label>
+                        <label for='surname'>APELLIDO</label>
                         <input
                             onChange={e => setSurName(e.target.value)}
                             placeholder='Escriba su apellido'
                             type="text" 
                             name="user_surname" 
+                            id="surname" 
                         />
                     </div>
 
                     <div className='try'>
-                        <label>EMAIL</label>
+                        <label for='email'>EMAIL</label>
                         <input
                             onChange={e => setEmail(e.target.value)}
                             placeholder='Escriba su email'
                             type="email" 
                             name="user_email" 
+                            id="email" 
                         />
                     </div>
                     
                     <div className='try'>
-                        <label>TELEFONO</label>
+                        <label for='phone'>TELEFONO</label>
                         <input
                             onChange={e => setPhone(e.target.value)}
                             placeholder='Escriba su telefono'
                             type="number" 
                             name="user_phone" 
+                            id="phone" 
                         />
                     </div>
                     
                     <div className='try message'>
-                        <label>MENSAJE</label>
+                        <label for='message'>MENSAJE</label>
                         <input
                             onChange={e => setMessages(e.target.value)}
                             placeholder='Contanos sobre tu idea'
                             name="message"
+                            id="message"
                         />
                     </div>
                 </div>
