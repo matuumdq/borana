@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from '../assets/boranaverticalblanco.png';
 import tostadoresdecafe from '../assets/tostadoresdecafe.png';
 import Navbar from './Navbar';
@@ -9,7 +10,10 @@ const Header = () => {
 
     <header>
 
-        <Shipping />
+        <div className='header-shipping-span-conteiner'>
+          <h5>ENVIOS A TODO EL PA&Iacute;S</h5>
+        </div>
+
         <Navbar />
 
         <div className='slider-conteiner'>
