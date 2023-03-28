@@ -3,13 +3,18 @@
 }
 
 .form{
-   margin: 5% 15% 5% 5%; 
+    margin: 5% 15% 5% 5%; 
+    font-family: 'Carrois Gothic', sans-serif;
+    letter-spacing: .05rem;
 }
 
 .form-cont{
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 25px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
 }
 
 .form-dudes{
@@ -40,6 +45,8 @@
     font-size: 1.2rem;
     margin: 25px 0;
     text-align: start;
+    font-family: 'Carrois Gothic', sans-serif;
+    color: #154344;
 }
 
 .try{
