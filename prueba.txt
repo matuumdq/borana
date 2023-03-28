@@ -1,1 +1,3 @@
-Prueba git
+
+- Slider: Pedir png
+- Footer: Ver montaña - hacer vistas

@@ -3,6 +3,8 @@
     /* font-family: 'Fira Sans Condensed', sans-serif; */
     /* font-family: 'Carrois Gothic', sans-serif; */
     /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+    --orange: #EB7D34;
+    --ligthblue: #77AAAD;
 }
 
 * {
@@ -104,7 +106,7 @@ h2{
 
 
 
-
+/* 
 .footer {
     margin: 0;
     display: flex;
