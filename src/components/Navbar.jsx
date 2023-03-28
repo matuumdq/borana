@@ -1,18 +1,22 @@
-import logo from '../assets/boranahorizontal.png'
+import logo from '../assets/boranahorizontal.png';
+import "../styles/header.css";
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
+ 
+    <div className='navbar-conteiner'>
+        
         <img src={logo} alt="logo borana header"/>
-        <div className='nav-menu'>
-            <p>Por que elegirnos?</p>
-            <p>Como comprar?</p>
-            <p>Quienes somos?</p>
-            <p>Contacto</p>
-            <button>Tienda</button>
+        
+        <div className='navbar-menu-conteiner'>
+            <h5>Nosotros</h5>
+            <h5>Contacto</h5>
+            <button className='button-store'>Tienda</button>
         </div>
+
     </div>
   )
+
 }
 
 export default Navbar

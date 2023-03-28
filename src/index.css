@@ -3,6 +3,8 @@
     /* font-family: 'Fira Sans Condensed', sans-serif; */
     /* font-family: 'Carrois Gothic', sans-serif; */
     /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+    --orange: #EB7D34;
+    --ligthblue: #77AAAD;
 }
 
 * {
@@ -10,6 +12,7 @@
     padding: 0;
 }
 
+/* 
 .shipping{
     height: 3vh;
     text-align: center;
@@ -33,8 +36,8 @@
         display: none;
     }
 }
-
-.navbar img{
+ */
+/* .navbar img{
     height: 8vh;
 }
 
@@ -92,12 +95,12 @@
 .header-toast {
     color: #FFFFFF;
     font-size: 30px;
-}
+} */
 
 
 
 
-
+/* 
 .footer {
     margin: 0;
     display: flex;
@@ -172,4 +175,4 @@
 .footer-menu p{
     font-size: 14px;
     color: #D9DBE1;
-}
+} */
