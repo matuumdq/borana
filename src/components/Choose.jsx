@@ -25,7 +25,7 @@ const Choose = () => {
     ]
   return (
     <div className='why-us'>
-        <h2 className='choose-us'>POR QUE ELEGIRNOS?</h2>
+        <h2 className='choose-us'>¿Por qué elegirnos?</h2>
         <div className='choose-container'>
             {options.map((opt, i) => (
                 <Card 

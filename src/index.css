@@ -12,6 +12,14 @@
     padding: 0;
 }
 
+h2{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+
 /* 
 .shipping{
     height: 3vh;
@@ -36,8 +44,8 @@
         display: none;
     }
 }
- */
-/* .navbar img{
+
+.navbar img{
     height: 8vh;
 }
 
@@ -95,12 +103,8 @@
 .header-toast {
     color: #FFFFFF;
     font-size: 30px;
-} */
+}
 
-
-
-
-/* 
 .footer {
     margin: 0;
     display: flex;
