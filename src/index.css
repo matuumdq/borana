@@ -10,6 +10,13 @@
     padding: 0;
 }
 
+h2{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
 .shipping{
     height: 3vh;
     text-align: center;
