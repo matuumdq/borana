@@ -33,6 +33,7 @@ const Footer = () => {
                 </div> 
     
            </div>
+          {/* <div className='celphone-view'>  */}
            <div className='footer-box-2'>
               <ul>MEN&Uacute;
                 <li>Comprar</li>
@@ -45,7 +46,8 @@ const Footer = () => {
                 <li><BsWhatsapp size={15} color='#77AAAD' /> +5491158909965</li>
                 <li><ImLocation size={15} color='#77AAAD'/>@Borana</li>
                 </ul>   
-           </div>      
+           </div>  
+           {/* </div> */}     
             
         </div>  
     

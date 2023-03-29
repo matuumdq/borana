@@ -31,23 +31,24 @@
     width: 32%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     margin-right: 1%;
-    border: 1px solid;
+
 }
 
 .navbar-menu-options{
     display: flex;
     flex-direction: row;
-    width: 40%;    
-    margin-right: 2%;
+    width: 28%;    
+    margin-right: 1%;
 }
 
 .navbar-menu-conteiner h5 {
     font-size: 14px;
-    /* margin-right: 6%; */ 
-    margin-left: 6%;
+    margin-right: 6%; 
+    margin-left: 15%;
 }
 
 .navbar-menu-conteiner h5:hover{
@@ -55,14 +56,14 @@
 }
 
 .button-store-head{
-    width: 30%;
+    width: 35%;
     max-width: 90px;
     font-family: 'Libre Franklin', sans-serif;
     font-weight: bold;
     padding: 7px;
-    /* margin: auto; */
-    margin-left: 15%; 
-    /* margin-right: -3%; */
+    margin: auto; 
+    margin-left: 18%; 
+    
     border-radius: 25px;
     color: white;
     background-color: #EB7D34;   
@@ -102,6 +103,12 @@
     color: #FFFFFF;
     font-size: 30px; 
 }
+
+@media (max-width: 990px) {
+    .navbar-menu-conteiner {
+        width: 45%;
+    }
+} 
 
 @media (min-width: 481px) and (max-width: 767px){
  
@@ -157,7 +164,6 @@
 
     .navbar-conteiner img{ 
         height: 50px;
-        border: 1px solid salmon;
     }
     .navbar-menu-options{
         display: none;
