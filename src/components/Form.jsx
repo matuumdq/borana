@@ -118,7 +118,7 @@ const Form = () => {
                         />
                     </div>
                 </div>
-                    <button type="submit">
+                    <button className='button-form' type="submit">
                         Enviar
                     </button>
             </div>

@@ -9,9 +9,13 @@ const Navbar = () => {
         <img src={logo} alt="logo borana header"/>
         
         <div className='navbar-menu-conteiner'>
-            <h5>Nosotros</h5>
-            <h5>Contacto</h5>
-            <button className='button-store'>Tienda</button>
+
+             <div className='navbar-menu-options'>
+                <h5>Nosotros</h5>
+                <h5>Contacto</h5>
+              </div> 
+            
+             <button className='button-store-head'>TIENDA</button>
         </div>
 
     </div>
