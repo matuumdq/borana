@@ -1,11 +1,12 @@
 .who-size{
     background: #F1F1F1;
-    height: 55vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 0;
+    margin-top: 50px;
 }
 
 .who-us{
@@ -38,9 +39,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .who-size{
-        height: 500px;
-    }
     .who-container{
         justify-content: center;
         gap: 50px;
@@ -64,7 +62,6 @@
 
 @media only screen and (max-width: 600px) {
     .who-size{
-        height: 80vh;
         margin-bottom: 50px;
         justify-content: space-evenly;
         padding: 5% 0 0;
@@ -80,5 +77,11 @@
     .who-text{
         margin: auto;
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 440px){
+    .who-size{
+        margin: 60px 0;
     }
 }
