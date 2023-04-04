@@ -17,6 +17,18 @@
     letter-spacing: 0.1rem;
 }
 
+.form-img{
+    width: 70px;
+    height: auto;
+    /* display: -webkit-box;
+    margin-left: auto;
+    padding-right: 10px; */
+    position:absolute;
+    top: 95px;
+    right: 15px;
+}
+
+
 .form-dudes{
     margin: 20px 0;
 }
@@ -47,6 +59,7 @@
     text-align: start;
     font-family: 'Carrois Gothic', sans-serif;
     color: #154344;
+    position: relative;
 }
 
 .try{
@@ -87,7 +100,6 @@
     cursor: pointer;
     background-color: #D9D9D9;
     color: #000;
-    
 }
 
 
@@ -192,6 +204,7 @@
     .button-form {
         width: 150px;
         background: #EB7D34;
-        border-radius: 25px;
+        border-radius: 10px;
+        margin: 0 0 20px 8%;
     }
 }
