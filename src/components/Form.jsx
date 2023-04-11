@@ -64,7 +64,7 @@ const Form = () => {
 
             <div className='form-contact-size'>
                 <p>Envianos un mensaje</p>
-                <img src={colombia} alt="" className='form-img' />
+                <img src={colombia} alt="colombia estampa" className='form-img' />
                 <div className='form-contact'>
                     <div className='try'>
                         <label htmlFor='name'>NOMBRE</label>
