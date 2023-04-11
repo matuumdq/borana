@@ -2,6 +2,7 @@ import { useRef, useState } from 'react'
 import { BsFacebook, BsInstagram } from 'react-icons/bs'
 import emailjs from '@emailjs/browser';
 import { Toaster, toast} from "sonner"
+import colombia from '../assets/colombia.png'
 import '../styles/Form.css'
 
 const Form = () => {
@@ -63,9 +64,10 @@ const Form = () => {
 
             <div className='form-contact-size'>
                 <p>Envianos un mensaje</p>
+                <img src={colombia} alt="colombia estampa" className='form-img' />
                 <div className='form-contact'>
                     <div className='try'>
-                        <label for='name'>NOMBRE</label>
+                        <label htmlFor='name'>NOMBRE</label>
                         <input
                             onChange={e => setName(e.target.value)}
                             placeholder='Escriba su nombre'
@@ -76,7 +78,7 @@ const Form = () => {
                     </div>
 
                     <div className='try'>
-                        <label for='surname'>APELLIDO</label>
+                        <label htmlFor='surname'>APELLIDO</label>
                         <input
                             onChange={e => setSurName(e.target.value)}
                             placeholder='Escriba su apellido'
@@ -87,7 +89,7 @@ const Form = () => {
                     </div>
 
                     <div className='try'>
-                        <label for='email'>EMAIL</label>
+                        <label htmlFor='email'>EMAIL</label>
                         <input
                             onChange={e => setEmail(e.target.value)}
                             placeholder='Escriba su email'
@@ -98,7 +100,7 @@ const Form = () => {
                     </div>
                     
                     <div className='try'>
-                        <label for='phone'>TELEFONO</label>
+                        <label htmlFor='phone'>TELEFONO</label>
                         <input
                             onChange={e => setPhone(e.target.value)}
                             placeholder='Escriba su telefono'
@@ -109,7 +111,7 @@ const Form = () => {
                     </div>
                     
                     <div className='try message'>
-                        <label for='message'>MENSAJE</label>
+                        <label htmlFor='message'>MENSAJE</label>
                         <input
                             onChange={e => setMessages(e.target.value)}
                             placeholder='Contanos sobre tu idea'
