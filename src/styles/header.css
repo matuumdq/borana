@@ -1,7 +1,9 @@
 /* span shipping */
 
 .header-shipping-span-conteiner{
-    background-color: #77AAAD;
+    background-color: #EB7D34; 
+    color: white;
+    font-size: 16px;
     text-align: center;
     padding: 5px;
 }
@@ -29,28 +31,24 @@
 
 .navbar-menu-conteiner {
     box-sizing: border-box;
-    width: 32%;
+    width: 25%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     text-align: center;
-    margin-right: 1%;
-
+    margin-right: 2%;
 }
 
 .navbar-menu-options{
     display: flex;
     flex-direction: row;
-    width: 28%;    
-    margin-right: 1%;
-    margin-left: 2%;
+    flex-wrap: wrap;
+    width: 55%;    
 }
 
 .navbar-menu-conteiner h5 {
     font-size: 14px;
-    margin-right: 6%; 
-    margin-left: 16%;
+    width: 45%;
 }
 
 .navbar-menu-conteiner h5:hover{
@@ -64,8 +62,8 @@
     font-weight: bold;
     padding: 7px;
     margin: auto; 
-    margin-left: 18%; 
-    
+    margin-left: 0%;  
+    border: none;
     border-radius: 25px;
     color: white;
     background-color: #EB7D34;   
@@ -74,7 +72,7 @@
 }
 
 .button-store-head:hover{
-    background-color: #77AAAD;
+    background-color: #EB7D34; 
     cursor: pointer;
 }
 
@@ -83,7 +81,7 @@
 .slider-conteiner {
     background-image: url('../assets/fondo.png'); 
     background-color: rgba(0, 0, 0, 0.7);
-    height: 350px;
+    height: 500px;
     width: auto;
     display: flex;
     align-items: center;
@@ -109,14 +107,14 @@
 }
 
 @media (max-width: 1120px) {
-    .navbar-menu-conteiner {
-        width: 38%;
-    } 
-    .button-store-head {
-        margin-left: 25%;
-        width: 25%;
+    .navbar-menu-conteiner h5 {
+        margin-right: 3%;
     }
-
+    .navbar-menu-conteiner {
+        width: 32%;
+        
+    } 
+   
 } 
 
 
@@ -130,32 +128,29 @@
     } 
 
     .navbar-menu-conteiner{
-        font-size: 10px;
-        width: 50%;
-        margin-right: 1.5%;
-    }
-
-     .navbar-menu-options{
-        margin-left: 12%;
-    }
- 
-    .navbar-menu-conteiner h5 {
         font-size: 12px;
-        margin-right: 2%; 
-        
+        width: 45%;
     }
 
+   .navbar-menu-conteiner h5 {
+        margin-right: 3%;
+        font-size: 12px;
+   }
+     
     .button-store-head{
-        width: 29%;
-        max-width: 120px;
+        width: 35%;
+        max-width: 90px;
         font-family: 'Libre Franklin', sans-serif;
         font-weight: bold;
-        font-size: 12px;
-        margin: auto;
-        background-color: #EB7D34;
-        border-radius: 25px;
         padding: 7px;
-        margin-left: 25%;
+        margin: auto; 
+        margin-left: 0%;  
+        border: none;
+        border-radius: 25px;
+        color: white;
+        background-color: #EB7D34;   
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 600ms;
     }
 
     .button-store-head:hover{
@@ -174,6 +169,10 @@
 /* media celulares */
 
 @media (max-width: 481px) {
+
+    .slider-conteiner{
+        height: 450px;
+    }
 
     .navbar-conteiner img{ 
         height: 50px;
