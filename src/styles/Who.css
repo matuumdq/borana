@@ -5,21 +5,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0;
-    padding-top: 20px;
+    padding: 0 0 10px;
 }
 
 .who-us{
     text-align: center;
-    padding: 5% 0 1%;
+    padding: 20px 0 1%;
 }
 
 .who-container{
     display: flex;
-    margin: 5% 5% 5%;
+    margin: 10px 0 10px;
     align-items: center;
     justify-content: center;
-    gap: 8%;
+    gap: 5%;
 }
 
 .who-text{
