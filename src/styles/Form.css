@@ -1,5 +1,5 @@
 .form-size{
-    padding-top: 5%;
+    padding-top: 15px;
 }
 
 .form{
@@ -20,9 +20,6 @@
 .form-img{
     width: 70px;
     height: auto;
-    /* display: -webkit-box;
-    margin-left: auto;
-    padding-right: 10px; */
     position:absolute;
     top: 95px;
     right: 15px;

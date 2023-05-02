@@ -1,21 +1,16 @@
 .shop{
     display: flex;
     align-items: center;
-    justify-content: center;
     height: 50vh;
     background: #000;
-    /* padding: 50px auto; */
 }
 
 .shop-container{
     background: black;
     border-radius: 30px;
-    margin: 0 50px;
+    margin: 0 auto;
 }
 
-/* .shop-country{
-    display: none;
-} */
 .shop-img {
     height: 100%;
 }
@@ -23,7 +18,6 @@
 .shop-text{
     font-weight: 700;
     text-align: center;
-    
 }
 
 .principal-text{
@@ -36,6 +30,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    margin: 0 auto;
 }
 
 .sec-text{
