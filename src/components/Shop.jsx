@@ -1,14 +1,13 @@
-import borana from '../assets/boranacartel.png'
+import borana from '../assets/boranared.png'
 import country from '../assets/country.png'
 
 import '../styles/Shop.css'
 const Shop = () => {
   return (
     <div className='shop'>
-    <div className='shop-cards'>
-        {/* <img src={borana} className='shop-img' alt="Logo borana Redondo" /> */}
-        <img src={country} alt="countries coffe" className='shop-country'/>
-    </div>
+        <img src={borana} className='shop-img' alt="Logo borana Redondo" />
+        {/* <img src={country} alt="countries coffe" className='shop-country'/> */}
+    
     <div className='shop-container'>
         <div className='shop-text'>
             <p className='principal-text'>¡Visita nuestra tienda online!</p>
