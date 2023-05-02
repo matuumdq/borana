@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     padding: 0;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .who-us{
@@ -62,9 +62,8 @@
 
 @media only screen and (max-width: 600px) {
     .who-size{
-        margin-bottom: 50px;
         justify-content: space-evenly;
-        padding: 5% 0 0;
+        padding: 10px 0 0;
     }
     .who-container{
         flex-direction: column;
@@ -82,6 +81,6 @@
 
 @media only screen and (max-width: 440px){
     .who-size{
-        margin: 60px 0;
+        margin: 0;
     }
 }
