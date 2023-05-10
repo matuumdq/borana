@@ -6,7 +6,7 @@ const Who = () => {
     const text = 'Borana nace en 2020 en Mar del Plata como un tostadero de café de especialidad impulsado por el deseo de ofrecer café de alta calidad y de diversos orígenes.' 
     const text2 = 'Luego de tostar, desarrollar y validar nuestros primeros granos y perfiles,  Borana es introducida al mercado local como una Boutique de Café.'
   return (
-    <div className='who-size'>
+    <div className='who-size' id='nosotros'>
         <h2 className='who-us'>¿QUIENES SOMOS?</h2>
         <div className='who-container'>
             <div className='who-text'>

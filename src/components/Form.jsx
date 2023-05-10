@@ -36,7 +36,7 @@ const Form = () => {
     };
 
   return (
-    <div className='form-size'>
+    <div className='form-size' id='contacto'>
         <h2 className='form-cont'>CONTACTANOS</h2>
         <form 
             ref={form}
@@ -57,8 +57,12 @@ const Form = () => {
             </div>
 
                 <div className='form-icons'>
-                    <BsInstagram color='#EB7D34' className='form-icons' size={25}/>
-                    <BsFacebook color='#EB7D34' className='form-icons' size={25}/>
+                    <a href="https://www.instagram.com/borana.cafe" target='_blank'>
+                        <BsInstagram color='#EB7D34' className='form-icons' size={25}/>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100064113159137" target='_blank'>
+                        <BsFacebook color='#EB7D34' className='form-icons' size={25}/>
+                    </a>
                 </div>
             </div>
 
