@@ -27,24 +27,24 @@ const Footer = () => {
                 <p>Tostadero de caf&eacute; de especialidad.</p>
         
                 <div className='footer-box-1-redes'>
-                   <img src={fb} alt="facebook-logo" />
-                   <img src={ig} alt="instagram-logo" />
-                   <img src={wpp} alt="whatsapp-logo" />
+                   <a href='https://www.facebook.com/profile.php?id=100064113159137' target='_blank'>  <img src={fb} alt="facebook-logo" /> </a>
+                   <a href='https://www.instagram.com/borana.cafe/' target='_blank'> <img src={ig} alt="instagram-logo" /> </a>
+                   <a href='https://api.whatsapp.com/send?phone=5492236035028' target='_blank'> <img src={wpp} alt="whatsapp-logo" /> </a>
                 </div> 
     
            </div>
           {/* <div className='celphone-view'>  */}
            <div className='footer-box-2'>
               <ul>MEN&Uacute;
-                <li>Comprar</li>
-                <li>Nosotros</li>
-                <li>Contacto</li>
+                <li><a href="#shop">Comprar </a></li>
+                <li><a href="#nosotros">Nosotros </a></li>
+                <li><a href="#contacto">Contacto </a></li>
               </ul>
            </div>  
            <div className='footer-box-3'>
                 <ul>CONTACTANOS
-                <li><BsWhatsapp size={15} color='#77AAAD' /> +5491158909965</li>
-                <li><ImLocation size={15} color='#77AAAD'/>@Borana</li>
+                <li><BsWhatsapp size={15} color='#77AAAD' /> <a href='https://api.whatsapp.com/send?phone=5492236035028' target='_blank'>+5491158909965 </a></li>
+                <li><ImLocation size={15} color='#77AAAD'/>  <a href='https://www.instagram.com/borana.cafe/' target='_blank'>@Borana </a></li>
                 </ul>   
            </div>  
            {/* </div> */}     

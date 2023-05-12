@@ -4,7 +4,7 @@ import country from '../assets/country.png'
 import '../styles/Shop.css'
 const Shop = () => {
   return (
-    <div className='shop'>
+    <div id="shop" className='shop'>
         <img src={borana} className='shop-img' alt="Logo borana Redondo" />
         {/* <img src={country} alt="countries coffe" className='shop-country'/> */}
     

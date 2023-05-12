@@ -6,16 +6,16 @@ const Navbar = () => {
  
     <div className='navbar-conteiner'>
         
-        <img src={logo} alt="logo borana header"/>
+        <a href="/"><img src={logo} alt="logo borana header"/></a>
         
         <div className='navbar-menu-conteiner'>
 
              <div className='navbar-menu-options'>
-                <h5>Nosotros</h5>
-                <h5>Contacto</h5>
+                <h5><a href="#nosotros">Nosotros </a></h5>
+                <h5><a href="#contacto">Contacto </a></h5>
               </div> 
             
-             <button className='button-store-head'>TIENDA</button>
+             <button className='button-store-head'><a href='https://www.instagram.com/borana.cafe/' target='_blank'>TIENDA</a></button>
         </div>
 
     </div>
